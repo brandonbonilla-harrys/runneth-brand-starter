@@ -13,7 +13,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "protected",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/brand-product-foundation", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/brand-product-foundation", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "creative-performance-reporting",
@@ -25,7 +25,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/creative-performance-reporting", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/creative-performance-reporting", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "command-center",
@@ -37,7 +37,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/command-center", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/command-center", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "creative-component-dashboard",
@@ -49,7 +49,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/creative-component-dashboard", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/creative-component-dashboard", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "producer-cockpit",
@@ -61,7 +61,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/producer-cockpit", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/producer-cockpit", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "coverage-matrix",
@@ -73,7 +73,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/coverage-matrix", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/coverage-matrix", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "competitor-roster",
@@ -85,7 +85,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/competitor-roster", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/competitor-roster", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "competitor-inspo-board",
@@ -97,7 +97,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/competitor-inspo-board", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/competitor-inspo-board", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "dtc-intel",
@@ -109,7 +109,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/dtc-intel", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/dtc-intel", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "static-ad-generation",
@@ -121,7 +121,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/static-ad-generation", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/static-ad-generation", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "template-library-engine",
@@ -133,7 +133,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/template-library-engine", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/template-library-engine", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "figma-template-pipeline",
@@ -145,7 +145,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/figma-template-pipeline", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/figma-template-pipeline", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "video-recipe-system",
@@ -157,7 +157,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/video-recipe-system", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/video-recipe-system", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "weekly-creative-batch",
@@ -169,7 +169,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/weekly-creative-batch", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/weekly-creative-batch", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "voc-hook-bank",
@@ -181,7 +181,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/voc-hook-bank", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/voc-hook-bank", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "corpus-search",
@@ -193,7 +193,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/corpus-search", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/corpus-search", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "meta-budget-pacing",
@@ -205,7 +205,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/meta-budget-pacing", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/meta-budget-pacing", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "routine-watchdog",
@@ -217,7 +217,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/routine-watchdog", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/routine-watchdog", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "brand-kit",
@@ -229,7 +229,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/brand-kit", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/brand-kit", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     },
     {
       "id": "landing-page-suite",
@@ -241,7 +241,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/landing-page-suite", "ref": "main" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/landing-page-suite", "ref": "aa8d1d9db654a09b3861deae2930b662bc34a91b" }
     }
   ]
 }
