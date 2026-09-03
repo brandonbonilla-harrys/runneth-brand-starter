@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "figma-template-pipeline",
+  "name": "Figma Template Pipeline",
+  "version": "1",
+  "description": "Optional pipeline connecting the brand's Figma template frames to the generation flow: pull template frames from Figma, map their editable slots to product/copy/proof, and produce generation-ready briefs. Reads the brand-product profile. Requires a Figma connection. Self-onboarding; install stages files only.",
+  "categories": ["brand-starter-26"],
+  "installPolicy": "auto",
+  "updatePolicy": "auto",
+  "uninstallPolicy": "allowed",
+  "resources": [
+    { "id": "readme", "type": "file", "executable": false, "sourcePath": "README.md", "target": { "root": "agent_brain", "path": "figma-template-pipeline/README.md" } },
+    { "id": "sop", "type": "file", "executable": false, "sourcePath": "sop.md", "target": { "root": "agent_brain", "path": "figma-template-pipeline/sop.md" } },
+    { "id": "activation", "type": "package_instruction", "executable": false, "sourcePath": "instructions/activation.md", "target": { "root": "package_instructions", "path": "figma-template-pipeline/activation.md" } }
+  ]
+}

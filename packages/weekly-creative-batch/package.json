@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "weekly-creative-batch",
+  "name": "Weekly Creative Batch",
+  "version": "1",
+  "description": "Recurring weekly static-ad batch: scores coverage and performance to pick what to make, generates a batch through the Gemini static flow, and delivers approval cards. Reads the brand-product profile, the template library, and the coverage matrix. Self-onboarding; install stages files only, routine created only after consent.",
+  "categories": ["brand-starter-26"],
+  "installPolicy": "auto",
+  "updatePolicy": "auto",
+  "uninstallPolicy": "allowed",
+  "resources": [
+    { "id": "readme", "type": "file", "executable": false, "sourcePath": "README.md", "target": { "root": "agent_brain", "path": "weekly-creative-batch/README.md" } },
+    { "id": "runbook", "type": "file", "executable": false, "sourcePath": "runbook.md", "target": { "root": "agent_brain", "path": "weekly-creative-batch/runbook.md" } },
+    { "id": "activation", "type": "package_instruction", "executable": false, "sourcePath": "instructions/activation.md", "target": { "root": "package_instructions", "path": "weekly-creative-batch/activation.md" } }
+  ]
+}

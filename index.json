@@ -110,6 +110,66 @@
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
       "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/dtc-intel", "ref": "<REF>" }
+    },
+    {
+      "id": "static-ad-generation",
+      "name": "Static Ad Generation",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "SOP + guardrails for generating static ads via the Gemini reference-image flow; reads product reference images, claims, and disclaimers from the profile. 4x5 enforced.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/static-ad-generation", "ref": "<REF>" }
+    },
+    {
+      "id": "template-library-engine",
+      "name": "Template Library Engine",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Harvests, classifies, dedupes, and mints reference-only static templates the brand generates against; feeds static-ad-generation.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/template-library-engine", "ref": "<REF>" }
+    },
+    {
+      "id": "figma-template-pipeline",
+      "name": "Figma Template Pipeline",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Optional: pull Figma template frames, map editable slots to product/copy/proof, produce generation-ready briefs. Requires a Figma connection.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/figma-template-pipeline", "ref": "<REF>" }
+    },
+    {
+      "id": "video-recipe-system",
+      "name": "Video Recipe System",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Turns the brand's winning videos into reusable recipes (hook + script structure + shot list) from real transcripts; pairs with producer-cockpit.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/video-recipe-system", "ref": "<REF>" }
+    },
+    {
+      "id": "weekly-creative-batch",
+      "name": "Weekly Creative Batch",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Recurring weekly static batch: score coverage + performance, generate via the Gemini flow, deliver approval cards. Routine created only after consent.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/weekly-creative-batch", "ref": "<REF>" }
     }
   ]
 }

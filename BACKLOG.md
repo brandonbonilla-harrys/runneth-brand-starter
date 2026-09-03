@@ -31,12 +31,15 @@ workspace-agnostic + self-onboarding using the pattern proven by
 - [x] competitor-inspo-board (rebuild-on-setup browsable competitor/inspo board, video-only aware)
 - [x] dtc-intel (searchable DTC/competitor intel corpus + digest, brand-chosen sources)
 
-## Wave D — ad generation
-- [ ] static-ad-generation (reference-images-only SOP + claims guard + aspect enforcement + HTML brief)
-- [ ] template-library-engine (harvest competitor statics, vision-classify, mint reference-only templates)
-- [ ] figma-template-pipeline (competitor-derived editable 4x5 Figma templates + plugin)
-- [ ] video-recipe-system (faceless demo/reveal/application video recipes)
-- [ ] weekly-creative-batch (scored selection + dedup ledger + learning-log promote/suppress)
+## Wave D — ad generation [SHIPPED]
+- [x] static-ad-generation (Gemini reference-image flow, claims guard, 4x5 enforcement, HTML brief; product specifics from profile)
+- [x] template-library-engine (harvest competitor statics, vision-classify, dedupe, mint reference-only templates)
+- [x] figma-template-pipeline (optional: pull Figma frames, map slots, generation-ready briefs)
+- [x] video-recipe-system (recipes from real transcripts: hook + structure + shot list)
+- [x] weekly-creative-batch (scored selection + generation + approval cards; agent-mode routine on consent)
+
+> Ad-gen packages pinned to the Gemini reference-image flow. All product fidelity, claims, and
+> naming come from the brand-product profile; no Harry's products, GADV scheme, or p-code naming.
 
 ## Wave E — ops & foundation
 - [ ] meta-budget-pacing (pacing config + weekly pacing/budget-change routines)

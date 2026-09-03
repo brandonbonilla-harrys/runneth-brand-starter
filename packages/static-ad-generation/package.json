@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "static-ad-generation",
+  "name": "Static Ad Generation",
+  "version": "1",
+  "description": "SOP + guardrails for generating static image ads for any of the brand's products, pinned to the Gemini reference-image flow (gemini-3-pro-image, reference-images-only prompting, 4x5 aspect enforcement). Reads the brand-product profile for reference images, allowed/banned claims, and disclaimers per product. Produces an HTML brief and updates a per-brand asset ledger. Self-onboarding; install stages files only.",
+  "categories": ["brand-starter-26"],
+  "installPolicy": "auto",
+  "updatePolicy": "auto",
+  "uninstallPolicy": "allowed",
+  "resources": [
+    { "id": "readme", "type": "file", "executable": false, "sourcePath": "README.md", "target": { "root": "agent_brain", "path": "static-ad-generation/README.md" } },
+    { "id": "sop", "type": "file", "executable": false, "sourcePath": "sop.md", "target": { "root": "agent_brain", "path": "static-ad-generation/sop.md" } },
+    { "id": "activation", "type": "package_instruction", "executable": false, "sourcePath": "instructions/activation.md", "target": { "root": "package_instructions", "path": "static-ad-generation/activation.md" } }
+  ]
+}
