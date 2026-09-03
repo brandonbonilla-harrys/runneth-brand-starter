@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "indexRevision": "2026-09-03-01",
+  "note": "Conforming package index for the custom Harry's/Flamingo-derived packages. Fill the source owner/repo/ref after pushing this folder to a git repo the target instances can read. Only packages that physically exist under packages/ are listed here so sync never references a missing folder.",
+  "packages": [
+    {
+      "id": "creative-performance-reporting",
+      "name": "Creative Performance Reporting",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Workspace-agnostic daily performance report + monthly creative strategy digest routines over the brand's own Meta data. Self-onboarding: resolves the workspace from Motion context and creates the routines only after an explicit human yes. Install stages files only.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": {
+        "type": "backend-github",
+        "owner": "<OWNER>",
+        "repo": "<REPO>",
+        "path": "packages/creative-performance-reporting",
+        "ref": "<REF>"
+      }
+    }
+  ]
+}
