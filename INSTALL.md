@@ -35,12 +35,17 @@ package install Motion-Creative/runneth-apps/creative-ideation-package@codex/jos
 
 ## Step 2 — Custom packages (this bundle)
 
-Push this folder to a git repo the instance can read, then register it as an index source:
+This bundle is pushed to `github.com/brandonbonilla-harrys/runneth-brand-starter@main`. Register
+it as an index source on each instance, then sync:
 
 ```
-package index-source add runneth-brand-starter <git-ref-to-this-repo>
+package index-source add runneth-brand-starter brandonbonilla-harrys/runneth-brand-starter@main
 package sync
 ```
+
+(Use whatever git-ref form the target instance's package system expects for a GitHub source; the
+index.json sources are set to owner `brandonbonilla-harrys`, repo `runneth-brand-starter`, ref
+`main`.)
 
 Or, simplest for a one-time drop, clone this folder into the instance and install locally:
 

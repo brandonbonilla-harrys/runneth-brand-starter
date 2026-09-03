@@ -41,11 +41,16 @@ workspace-agnostic + self-onboarding using the pattern proven by
 > Ad-gen packages pinned to the Gemini reference-image flow. All product fidelity, claims, and
 > naming come from the brand-product profile; no Harry's products, GADV scheme, or p-code naming.
 
-## Wave E — ops & foundation
-- [ ] meta-budget-pacing (pacing config + weekly pacing/budget-change routines)
-- [ ] routine-watchdog (inactive/broken routine alerts + dependency map)
-- [ ] brand-kit (identity/voice/visual-system builder skill)
-- [ ] landing-page-suite (summary -> optimize -> experiments -> builder skills)
+## Wave E — ops, VoC & foundation [SHIPPED]
+- [x] voc-hook-bank (ad-ready hooks from reviews + comments, verbatim quote + attribution)
+- [x] corpus-search (hybrid keyword + vector retrieval over the brand's corpora)
+- [x] meta-budget-pacing (daily pacing vs plan, anomaly flags, attribution/label workarounds; reporting only)
+- [x] routine-watchdog (read-only routine health check; owner-gated, never edits routines it doesn't own)
+- [x] brand-kit (identity/voice/visual-system builder from profile + live site)
+- [x] landing-page-suite (summarize -> optimize -> experiments -> build)
+
+> ALL WAVES SHIPPED. 20 custom packages live in index.json with source owner/repo/ref filled
+> (brandonbonilla-harrys/runneth-brand-starter@main).
 
 ## Generalization checklist per package
 - Remove: workspace IDs, ad account IDs, product codes, p-code/growth naming conventions,

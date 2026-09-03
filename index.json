@@ -13,7 +13,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "protected",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/brand-product-foundation", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/brand-product-foundation", "ref": "main" }
     },
     {
       "id": "creative-performance-reporting",
@@ -25,7 +25,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/creative-performance-reporting", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/creative-performance-reporting", "ref": "main" }
     },
     {
       "id": "command-center",
@@ -37,7 +37,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/command-center", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/command-center", "ref": "main" }
     },
     {
       "id": "creative-component-dashboard",
@@ -49,7 +49,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/creative-component-dashboard", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/creative-component-dashboard", "ref": "main" }
     },
     {
       "id": "producer-cockpit",
@@ -61,7 +61,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/producer-cockpit", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/producer-cockpit", "ref": "main" }
     },
     {
       "id": "coverage-matrix",
@@ -73,7 +73,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/coverage-matrix", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/coverage-matrix", "ref": "main" }
     },
     {
       "id": "competitor-roster",
@@ -85,7 +85,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/competitor-roster", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/competitor-roster", "ref": "main" }
     },
     {
       "id": "competitor-inspo-board",
@@ -97,7 +97,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/competitor-inspo-board", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/competitor-inspo-board", "ref": "main" }
     },
     {
       "id": "dtc-intel",
@@ -109,7 +109,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/dtc-intel", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/dtc-intel", "ref": "main" }
     },
     {
       "id": "static-ad-generation",
@@ -121,7 +121,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/static-ad-generation", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/static-ad-generation", "ref": "main" }
     },
     {
       "id": "template-library-engine",
@@ -133,7 +133,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/template-library-engine", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/template-library-engine", "ref": "main" }
     },
     {
       "id": "figma-template-pipeline",
@@ -145,7 +145,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/figma-template-pipeline", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/figma-template-pipeline", "ref": "main" }
     },
     {
       "id": "video-recipe-system",
@@ -157,7 +157,7 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/video-recipe-system", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/video-recipe-system", "ref": "main" }
     },
     {
       "id": "weekly-creative-batch",
@@ -169,7 +169,79 @@
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/weekly-creative-batch", "ref": "<REF>" }
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/weekly-creative-batch", "ref": "main" }
+    },
+    {
+      "id": "voc-hook-bank",
+      "name": "VoC Hook Bank",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Bank of ad-ready hooks/angles mined from the brand's reviews + ad comments, each tied to a verbatim quote with attribution.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/voc-hook-bank", "ref": "main" }
+    },
+    {
+      "id": "corpus-search",
+      "name": "Corpus Search",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Hybrid keyword + vector retrieval over the brand's corpora (reviews, briefs, transcripts, intel). Uses the brand's OpenAI key.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/corpus-search", "ref": "main" }
+    },
+    {
+      "id": "meta-budget-pacing",
+      "name": "Meta Budget Pacing",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Daily Meta spend pacing vs plan with delivery-anomaly flags and the attribution/label-dropout workarounds. Reporting only.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/meta-budget-pacing", "ref": "main" }
+    },
+    {
+      "id": "routine-watchdog",
+      "name": "Routine Watchdog",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Periodic read-only health check over the brand's routines; flags failures, silent no-ops, and stalls to an owner. Never edits routines it doesn't own.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/routine-watchdog", "ref": "main" }
+    },
+    {
+      "id": "brand-kit",
+      "name": "Brand Kit Builder",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Builds a full brand kit (identity, visual system from computed styles, voice, application patterns) from the profile + live site; markdown source of truth + on-brand page.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/brand-kit", "ref": "main" }
+    },
+    {
+      "id": "landing-page-suite",
+      "name": "Landing Page Suite",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Landing-page workflow: deep-extract to spec, CRO audit vs the ads, prioritized A/B backlog, and page building. Grounded in the profile + brand kit.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "brandonbonilla-harrys", "repo": "runneth-brand-starter", "path": "packages/landing-page-suite", "ref": "main" }
     }
   ]
 }

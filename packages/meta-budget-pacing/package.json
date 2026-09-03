@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "meta-budget-pacing",
+  "name": "Meta Budget Pacing",
+  "version": "1",
+  "description": "Daily read on Meta spend pacing vs plan for the brand: spend to date, run-rate, pace vs target, and delivery anomalies, with the attribution/label-dropout workarounds built in. Reads the brand-product profile for KPI/target and delivery. Self-onboarding; install stages files only, routine created only after consent.",
+  "categories": ["brand-starter-26"],
+  "installPolicy": "auto",
+  "updatePolicy": "auto",
+  "uninstallPolicy": "allowed",
+  "resources": [
+    { "id": "readme", "type": "file", "executable": false, "sourcePath": "README.md", "target": { "root": "agent_brain", "path": "meta-budget-pacing/README.md" } },
+    { "id": "runbook", "type": "file", "executable": false, "sourcePath": "runbook.md", "target": { "root": "agent_brain", "path": "meta-budget-pacing/runbook.md" } },
+    { "id": "activation", "type": "package_instruction", "executable": false, "sourcePath": "instructions/activation.md", "target": { "root": "package_instructions", "path": "meta-budget-pacing/activation.md" } }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "brand-kit",
+  "name": "Brand Kit Builder",
+  "version": "1",
+  "description": "Builds a complete brand kit (identity, visual system, voice and messaging, application patterns, anti-patterns) for the brand, grounded in the brand-product profile and the brand's live site. Produces a markdown source of truth plus an on-brand HTML deliverable. Self-onboarding; install stages files only.",
+  "categories": ["brand-starter-26"],
+  "installPolicy": "auto",
+  "updatePolicy": "auto",
+  "uninstallPolicy": "allowed",
+  "resources": [
+    { "id": "readme", "type": "file", "executable": false, "sourcePath": "README.md", "target": { "root": "agent_brain", "path": "brand-kit/README.md" } },
+    { "id": "sop", "type": "file", "executable": false, "sourcePath": "sop.md", "target": { "root": "agent_brain", "path": "brand-kit/sop.md" } },
+    { "id": "activation", "type": "package_instruction", "executable": false, "sourcePath": "instructions/activation.md", "target": { "root": "package_instructions", "path": "brand-kit/activation.md" } }
+  ]
+}

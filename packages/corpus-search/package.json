@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "corpus-search",
+  "name": "Corpus Search",
+  "version": "1",
+  "description": "Sets up hybrid keyword + vector retrieval over the brand's indexed corpora (reviews, briefs, transcripts, DTC intel) so the team can query by meaning in about a second. Uses the brand's OpenAI key for embeddings + rerank. Reads the brand-product profile. Self-onboarding; install stages files only.",
+  "categories": ["brand-starter-26"],
+  "installPolicy": "auto",
+  "updatePolicy": "auto",
+  "uninstallPolicy": "allowed",
+  "resources": [
+    { "id": "readme", "type": "file", "executable": false, "sourcePath": "README.md", "target": { "root": "agent_brain", "path": "corpus-search/README.md" } },
+    { "id": "setup", "type": "file", "executable": false, "sourcePath": "setup.md", "target": { "root": "agent_brain", "path": "corpus-search/setup.md" } },
+    { "id": "activation", "type": "package_instruction", "executable": false, "sourcePath": "instructions/activation.md", "target": { "root": "package_instructions", "path": "corpus-search/activation.md" } }
+  ]
+}
