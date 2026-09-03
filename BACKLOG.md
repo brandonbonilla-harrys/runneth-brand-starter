@@ -26,10 +26,10 @@ workspace-agnostic + self-onboarding using the pattern proven by
 > instance from that brand's own Motion data, driven by the brand-product profile. No Harry's app
 > source is ported.
 
-## Wave C — competitor & inspo
-- [ ] competitor-roster (mapped competitor profiles, weekly auto-refresh)
-- [ ] competitor-inspo-board (shareable board of active competitor winners)
-- [ ] dtc-intel (weekly cross-cohort pattern tracking)
+## Wave C — competitor & inspo [SHIPPED]
+- [x] competitor-roster (mapped competitor profiles, weekly read; seeds from profile competitors + followed brands, brand chooses at setup)
+- [x] competitor-inspo-board (rebuild-on-setup browsable competitor/inspo board, video-only aware)
+- [x] dtc-intel (searchable DTC/competitor intel corpus + digest, brand-chosen sources)
 
 ## Wave D — ad generation
 - [ ] static-ad-generation (reference-images-only SOP + claims guard + aspect enforcement + HTML brief)

@@ -74,6 +74,42 @@
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
       "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/coverage-matrix", "ref": "<REF>" }
+    },
+    {
+      "id": "competitor-roster",
+      "name": "Competitor Roster",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Maps the brand's competitors into a tracked roster with a weekly read; seeds from profile competitors and enriches with followed brands (brand chooses at setup).",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/competitor-roster", "ref": "<REF>" }
+    },
+    {
+      "id": "competitor-inspo-board",
+      "name": "Competitor & Inspo Board",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Rebuild-on-setup browsable board of competitor + inspo creatives, filterable by brand/format/angle, honoring a video-only preference.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/competitor-inspo-board", "ref": "<REF>" }
+    },
+    {
+      "id": "dtc-intel",
+      "name": "DTC Intel Corpus",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Searchable brain corpus of DTC/competitor intelligence with a recurring digest; sources chosen by the brand at setup. Pairs with corpus-search.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/dtc-intel", "ref": "<REF>" }
     }
   ]
 }

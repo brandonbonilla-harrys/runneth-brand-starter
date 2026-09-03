@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dtc-intel",
+  "name": "DTC Intel Corpus",
+  "version": "1",
+  "description": "Builds a searchable brain corpus of DTC and competitor intelligence (positioning, offers, angles, landing-page moves) that the team can query by meaning and get a recurring digest from. Sources are chosen by the brand at setup. Pairs with the corpus-search tooling. Self-onboarding; install stages files only.",
+  "categories": ["brand-starter-26"],
+  "installPolicy": "auto",
+  "updatePolicy": "auto",
+  "uninstallPolicy": "allowed",
+  "resources": [
+    { "id": "readme", "type": "file", "executable": false, "sourcePath": "README.md", "target": { "root": "agent_brain", "path": "dtc-intel/README.md" } },
+    { "id": "setup", "type": "file", "executable": false, "sourcePath": "setup.md", "target": { "root": "agent_brain", "path": "dtc-intel/setup.md" } },
+    { "id": "activation", "type": "package_instruction", "executable": false, "sourcePath": "instructions/activation.md", "target": { "root": "package_instructions", "path": "dtc-intel/activation.md" } }
+  ]
+}
