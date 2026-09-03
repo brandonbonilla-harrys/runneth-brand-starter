@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "brand-product-foundation",
+  "name": "Brand & Product Foundation",
+  "version": "1",
+  "description": "The keystone setup package for a new brand instance. Runs a deep, guided intake interview (brand, full product catalog, claims, naming, connections, KPI/attribution, delivery) and writes a canonical brand-product profile that every other Runneth package reads instead of re-asking. Workspace-agnostic and self-onboarding: resolves the workspace from Motion context, asks one question at a time, and writes nothing until the person confirms. Install stages files only.",
+  "categories": ["brand-starter-26"],
+  "installPolicy": "auto",
+  "updatePolicy": "auto",
+  "uninstallPolicy": "protected",
+  "resources": [
+    {
+      "id": "readme",
+      "type": "file",
+      "executable": false,
+      "sourcePath": "README.md",
+      "target": { "root": "agent_brain", "path": "brand-product-foundation/README.md" }
+    },
+    {
+      "id": "setup-interview",
+      "type": "file",
+      "executable": false,
+      "sourcePath": "setup-interview.md",
+      "target": { "root": "agent_brain", "path": "brand-product-foundation/setup-interview.md" }
+    },
+    {
+      "id": "profile-schema",
+      "type": "file",
+      "executable": false,
+      "sourcePath": "profile-schema.md",
+      "target": { "root": "agent_brain", "path": "brand-product-foundation/profile-schema.md" }
+    },
+    {
+      "id": "activation",
+      "type": "package_instruction",
+      "executable": false,
+      "sourcePath": "instructions/activation.md",
+      "target": { "root": "package_instructions", "path": "brand-product-foundation/activation.md" }
+    }
+  ]
+}

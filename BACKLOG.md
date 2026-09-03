@@ -5,7 +5,12 @@ workspace-agnostic + self-onboarding using the pattern proven by
 `creative-performance-reporting`. Grouped by wave.
 
 ## Shipped
+- [x] brand-product-foundation (KEYSTONE: deep guided product setup interview + canonical brand-product profile that every other package reads)
 - [x] creative-performance-reporting (daily report + monthly strategy digest)
+
+> Deep-pass decision: brands' products differ completely, so every downstream package reads the
+> brand-product profile and, where relevant, adds its own setup questions. No product logic is
+> hardcoded; each package configures per brand at setup.
 
 ## Wave A — reporting & VoC extensions
 - [ ] voc-hook-bank (scored, ready-to-run hooks per product from reviews + ad comments; depends on voc-onboarding)
