@@ -15,8 +15,8 @@ setup up front and asks enough questions to make everything downstream specific 
    form factor, key features/ingredients, hero benefits, price/offer, reference-image location,
    primary personas, top objections.
 3. **Claims & safety** — allowed framings, banned language, required disclaimers, per product.
-4. **Naming convention** — the brand's own ad-naming taxonomy, or a handoff to the `ad-naming`
-   package to build one.
+4. **Naming convention** — the brand's own ad-naming taxonomy: token structure, registries, and
+   where they live. If the brand has none yet, draft a simple token scheme with them here.
 5. **Connections** — confirms Meta ad account, reviews platform, Drive, and Slack.
 6. **Measurement** — primary KPI, attribution stance, any breakeven target.
 7. **Delivery** — default destinations (web or Slack channels), report timing, tone/format.

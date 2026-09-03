@@ -54,7 +54,7 @@ brand-product profile, never hardcoded.
 
 - Assign the next per-brand asset ID from the brand's ledger (a simple incrementing scheme;
   source of truth is the reference-images directory, not a counter that can drift).
-- Build the ad name from the brand's naming convention (profile `naming` / `ad-naming` package).
+- Build the ad name from the brand's naming convention (profile `naming`).
 
 ## 8. HTML brief + ledger
 

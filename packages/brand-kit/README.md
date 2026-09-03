@@ -9,7 +9,7 @@ Produces a markdown source of truth plus an on-brand HTML deliverable styled in 
 system.
 
 - `sop.md` — inputs, extraction, the kit structure, and the deliverables.
-- Requires `brand-product-foundation`. If the brand's official `brand-kit` skill is installed,
-  this package uses it; otherwise it follows the SOP directly.
+- Requires `brand-product-foundation`. This package ships the `brand-kit` skill; `sop.md` is its
+  operating procedure.
 
 Nothing runs on install. The kit is built only after an explicit yes.

@@ -6,8 +6,8 @@ Present while installed. Governs the landing-page workflow in this instance.
 
 - Resolve the workspace from Motion context. Read `brand-product-profile.json`. If missing, route
   to `brand-product-foundation`.
-- If the official landing-page skills are installed, use them; otherwise follow
-  `/agent/brain/landing-page-suite/guide.md`.
+- This package ships the `landing-page-suite` skill; follow `/agent/brain/landing-page-suite/guide.md`
+  as its operating procedure.
 
 ## When to run
 

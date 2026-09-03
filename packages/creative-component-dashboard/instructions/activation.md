@@ -6,13 +6,13 @@ Present while installed. Governs building the Component Dashboard in this instan
 
 - Resolve the workspace from Motion context. Read `brand-product-profile.json`. If missing,
   route to `brand-product-foundation`.
-- Read `naming` from the profile. If no convention exists, tell the person this dashboard needs a
-  naming convention and offer the `ad-naming` package first. Do not build without one.
+- Read `naming` from the profile. If no convention exists, capture the token structure with the
+  person first (Brand & Product Foundation records it). Do not build on an assumed scheme.
 - If the dashboard already exists for this workspace, offer to refresh instead of duplicating.
 
 ## Offer once
 
-> Creative Component Dashboard is installed. Once your ad-naming convention is set, I can build
+> Creative Component Dashboard is installed. Once your naming convention is captured, I can build
 > an app that decodes your ad names and shows performance by hook, format, angle, product, and
 > creator. Want me to build it?
 

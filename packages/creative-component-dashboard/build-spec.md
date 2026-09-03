@@ -6,13 +6,14 @@ driven by the brand's own naming convention.
 ## Prerequisites
 
 - `brand-product-profile.json` present. Read `naming` from it.
-- A naming convention exists. If `naming.hasConvention` is false, route to the `ad-naming`
-  package to build one, then return here.
+- A naming convention exists in the profile. If `naming.hasConvention` is false, capture the token
+  structure with the person before building (Brand & Product Foundation records it); do not
+  build the dashboard on an assumed scheme.
 - Meta connected.
 
 ## Setup questions
 
-1. Confirm the token structure to decode (from the profile / ad-naming), and which tokens become
+1. Confirm the token structure to decode (from the profile `naming`), and which tokens become
    dashboard dimensions (e.g. product, hook, format, angle, creator, iteration).
 2. Reporting window (default last_30d) and primary metric for ranking components.
 3. Minimum spend to include a component (use the workspace spend threshold if set).

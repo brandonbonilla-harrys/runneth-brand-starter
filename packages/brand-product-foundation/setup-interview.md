@@ -44,7 +44,8 @@ person to confirm or correct rather than asking cold.
 
 1. "Do you already have an ad-naming convention?" If yes, capture the token structure and any
    registries/lookup tables, or where they live.
-2. If no, note that the `ad-naming` package can build and persist one, and offer to hand off.
+2. If no, draft a simple token scheme with them here (brand / product / ad-type / hook / version
+   tokens) and persist it to the profile so the component dashboard and ad naming can read it.
 
 ## Phase 5 - Connections (confirm, don't collect secrets)
 

@@ -6,8 +6,8 @@ Present while installed. Governs building the brand kit in this instance.
 
 - Resolve the workspace from Motion context. Read `brand-product-profile.json`. If missing, route
   to `brand-product-foundation`.
-- If the official `brand-kit` skill is installed, use it; otherwise follow
-  `/agent/brain/brand-kit/sop.md`.
+- This package ships the `brand-kit` skill; follow `/agent/brain/brand-kit/sop.md` as its
+  operating procedure.
 
 ## Offer once
 

@@ -8,8 +8,7 @@ those ads.
 Grounded in the brand-product profile and the brand kit (voice, claims, visual system).
 
 - `guide.md` — the four capabilities, when to use each, and how they chain.
-- Requires `brand-product-foundation`. Uses the official landing-page skills when installed
-  (`landing-page-summary`, `optimize-landing-page`, `landing-page-experiments`,
-  `landing-page-builder`); otherwise follows the guide.
+- Requires `brand-product-foundation`. This package ships the `landing-page-suite` skill covering
+  summarize, optimize, experiments, and build; `guide.md` is its operating procedure.
 
 Nothing runs on install. Each capability runs only when asked.

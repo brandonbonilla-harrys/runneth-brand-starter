@@ -1,7 +1,7 @@
 # Landing Page Suite guide
 
-Four chained capabilities. Prefer the official landing-page skills when installed; this guide is
-the fallback and the profile-grounding layer.
+Four chained capabilities. This package ships the `landing-page-suite` skill; this guide is its
+operating procedure and profile-grounding layer.
 
 ## Prerequisites
 

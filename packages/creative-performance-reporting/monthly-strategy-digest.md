@@ -9,7 +9,7 @@ Runs on the 1st of each month for the brand's workspace.
 - Per-product rollups calculated from creative rows (or exact filters resolved via `motion meta
   filter-reference` when the brand has a naming convention).
 - Meta-native fatigue signals for what is wearing out.
-- Voice-of-customer inputs if the `voc-onboarding` package is installed (themes, objections,
+- Voice-of-customer inputs when available from `voc-hook-bank` or a connected reviews source (themes, objections,
   ad-ready language) to ground concept suggestions.
 
 ## Output

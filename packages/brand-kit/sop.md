@@ -1,7 +1,7 @@
 # Brand Kit Builder SOP
 
-Build the brand's kit. If the official `brand-kit` skill is installed in this instance, use it;
-this SOP is the fallback and the profile-grounding layer.
+Build the brand's kit. This package ships the `brand-kit` skill; this SOP is its operating
+procedure and profile-grounding layer.
 
 ## Prerequisites
 

@@ -11,6 +11,7 @@
   "resources": [
     { "id": "readme", "type": "file", "executable": false, "sourcePath": "README.md", "target": { "root": "agent_brain", "path": "static-ad-generation/README.md" } },
     { "id": "sop", "type": "file", "executable": false, "sourcePath": "sop.md", "target": { "root": "agent_brain", "path": "static-ad-generation/sop.md" } },
+    { "id": "skill", "type": "file", "executable": false, "sourcePath": "static-ad-generation/SKILL.md", "target": { "root": "agent_skills", "path": "static-ad-generation/SKILL.md" } },
     { "id": "activation", "type": "package_instruction", "executable": false, "sourcePath": "instructions/activation.md", "target": { "root": "package_instructions", "path": "static-ad-generation/activation.md" } }
   ]
 }
