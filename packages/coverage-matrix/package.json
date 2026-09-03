@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "coverage-matrix",
+  "name": "Coverage & Whitespace Matrix",
+  "version": "1",
+  "description": "Rebuild-on-setup app showing a grid of messaging angles x products (and formats) marked tested vs untested, with performance where tested, so the team sees whitespace to fill next. Reads the brand-product profile for products, angles, and personas; builds fresh from the brand's own creatives. Self-onboarding; install stages files only.",
+  "categories": ["brand-starter-26"],
+  "installPolicy": "auto",
+  "updatePolicy": "auto",
+  "uninstallPolicy": "allowed",
+  "resources": [
+    { "id": "readme", "type": "file", "executable": false, "sourcePath": "README.md", "target": { "root": "agent_brain", "path": "coverage-matrix/README.md" } },
+    { "id": "build-spec", "type": "file", "executable": false, "sourcePath": "build-spec.md", "target": { "root": "agent_brain", "path": "coverage-matrix/build-spec.md" } },
+    { "id": "activation", "type": "package_instruction", "executable": false, "sourcePath": "instructions/activation.md", "target": { "root": "package_instructions", "path": "coverage-matrix/activation.md" } }
+  ]
+}

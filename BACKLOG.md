@@ -16,11 +16,15 @@ workspace-agnostic + self-onboarding using the pattern proven by
 - [ ] voc-hook-bank (scored, ready-to-run hooks per product from reviews + ad comments; depends on voc-onboarding)
 - [ ] corpus-search (hybrid BM25 + vector retrieval tool over the brand's own indexed corpora)
 
-## Wave B — performance intelligence apps (heaviest)
-- [ ] command-center (fatigue scoring, creative DNA, vs-cluster, creator decay, forecast, action layer + pipeline)
-- [ ] creative-component-dashboard (decode ad names into components, drill-down performance)
-- [ ] producer-cockpit (producer-facing KPIs, hook teardowns, transcripts, competitor inspo)
-- [ ] coverage-whitespace-matrix (angle x product tested/untested grid)
+## Wave B — performance intelligence apps (rebuild-on-setup) [SHIPPED]
+- [x] command-center (fatigue, clusters/DNA, trajectory, forecast, benchmark, action layer)
+- [x] creative-component-dashboard (decode ad names into components, drill-down performance)
+- [x] producer-cockpit (top-ad hook/script teardowns with transcripts, recent work, competitor inspo)
+- [x] coverage-matrix (angle x product tested/whitespace grid)
+
+> All Wave B packages are rebuild-on-setup: activation scaffolds a fresh app in the target
+> instance from that brand's own Motion data, driven by the brand-product profile. No Harry's app
+> source is ported.
 
 ## Wave C — competitor & inspo
 - [ ] competitor-roster (mapped competitor profiles, weekly auto-refresh)

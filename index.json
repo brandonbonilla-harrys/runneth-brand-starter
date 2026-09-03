@@ -1,43 +1,79 @@
 {
   "schemaVersion": 1,
-  "indexRevision": "2026-09-03-02",
-  "note": "Conforming package index for the custom Harry's/Flamingo-derived packages. Fill the source owner/repo/ref after pushing to a git repo the target instances can read. brand-product-foundation is the keystone: run it first; the other packages read the brand-product profile it writes. Only packages that physically exist under packages/ are listed here.",
+  "indexRevision": "2026-09-03-03",
+  "note": "Conforming package index for the custom Harry's/Flamingo-derived packages. Fill the source owner/repo/ref after pushing. brand-product-foundation is the keystone: run it first; every other package reads the brand-product profile it writes. App packages (command-center, creative-component-dashboard, producer-cockpit, coverage-matrix) are rebuild-on-setup: they scaffold a fresh app in the target instance from that brand's own Motion data. Only packages that physically exist under packages/ are listed.",
   "packages": [
     {
       "id": "brand-product-foundation",
       "name": "Brand & Product Foundation",
       "version": "1",
       "categories": ["brand-starter-26"],
-      "description": "Keystone setup package. Guided intake interview for brand + full product catalog + claims + naming + connections + KPI + delivery. Writes a canonical brand-product profile every other package reads. Self-onboarding; install stages files only.",
+      "description": "Keystone setup: guided brand + full product catalog + claims + naming + connections + KPI + delivery interview; writes the canonical brand-product profile every other package reads.",
       "packageManagerVersion": 1,
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "protected",
-      "source": {
-        "type": "backend-github",
-        "owner": "<OWNER>",
-        "repo": "<REPO>",
-        "path": "packages/brand-product-foundation",
-        "ref": "<REF>"
-      }
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/brand-product-foundation", "ref": "<REF>" }
     },
     {
       "id": "creative-performance-reporting",
       "name": "Creative Performance Reporting",
       "version": "1",
       "categories": ["brand-starter-26"],
-      "description": "Workspace-agnostic daily performance report + monthly creative strategy digest over the brand's own Meta data. Reads the brand-product profile for product breakdown when present. Self-onboarding; install stages files only.",
+      "description": "Daily performance report + monthly creative strategy digest over the brand's own Meta data. Reads the profile for product breakdown.",
       "packageManagerVersion": 1,
       "installPolicy": "auto",
       "updatePolicy": "auto",
       "uninstallPolicy": "allowed",
-      "source": {
-        "type": "backend-github",
-        "owner": "<OWNER>",
-        "repo": "<REPO>",
-        "path": "packages/creative-performance-reporting",
-        "ref": "<REF>"
-      }
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/creative-performance-reporting", "ref": "<REF>" }
+    },
+    {
+      "id": "command-center",
+      "name": "Creative Command Center",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Rebuild-on-setup per-product performance app: fatigue, clusters, trajectory, forecast, benchmark, actions.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/command-center", "ref": "<REF>" }
+    },
+    {
+      "id": "creative-component-dashboard",
+      "name": "Creative Component Dashboard",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Rebuild-on-setup app decoding ad names into components and rolling up performance by hook, format, angle, product, creator.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/creative-component-dashboard", "ref": "<REF>" }
+    },
+    {
+      "id": "producer-cockpit",
+      "name": "Producer Cockpit",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Rebuild-on-setup producer app: top-ad hook/script teardowns with transcripts, recent work, live competitor/inspo video feed.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/producer-cockpit", "ref": "<REF>" }
+    },
+    {
+      "id": "coverage-matrix",
+      "name": "Coverage & Whitespace Matrix",
+      "version": "1",
+      "categories": ["brand-starter-26"],
+      "description": "Rebuild-on-setup app: angles x products grid of tested vs whitespace with performance where tested.",
+      "packageManagerVersion": 1,
+      "installPolicy": "auto",
+      "updatePolicy": "auto",
+      "uninstallPolicy": "allowed",
+      "source": { "type": "backend-github", "owner": "<OWNER>", "repo": "<REPO>", "path": "packages/coverage-matrix", "ref": "<REF>" }
     }
   ]
 }
