@@ -13,10 +13,14 @@ are **pinned to a frozen commit** so what a brand installs cannot drift when we 
 later (see "Frozen snapshot" below). Register it as an index source, enable the category, sync:
 
 ```
-package index-source add runneth-brand-starter brandonbonilla-harrys/runneth-brand-starter@main
+package index-source add runneth-brand-starter brandonbonilla-harrys/runneth-brand-starter@9c311b7a016c32ee150d9baef9e01db0f29cf0da
 package intent add-baseline-category brand-starter-26
 package sync
 ```
+
+That commit is the frozen release. Its `index.json` pins every package's contents to commit
+`aa8d1d9`, so the brand installs an immutable snapshot. (`@main` also works and always points at
+the latest frozen pin; use the SHA when you want the install locked to exactly this release.)
 
 That stages all 20 custom packages. (Use whatever git-ref form the target instance's package
 system expects for a GitHub source; every package's contents resolve at the frozen commit
